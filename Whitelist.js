@@ -1,4 +1,4 @@
-var Whitelist = ["http://localhost:3000", "https://tradexbis.netlify.app"];
+var Whitelist = ["*"];
 
 module.exports = {
   Whitelist,
