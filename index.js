@@ -25,12 +25,14 @@ const corsOptions = {
   optionsSuccessStatus: 200,
 };
 
-app.use(credentials);
+//app.use(credentials);
 
-app.use(cors(corsOptions));
+//app.use(cors(corsOptions));
+
+app.use(cors());
 
 
-app.use(cookieParser());
+//app.use(cookieParser());
 
 app.use(bodyparser.urlencoded({
     extended: false
